@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page2</title>
+    <link rel="stylesheet" href="../Css/area2.css">
+</head>
+<body>
+    <form action="thanks.html" method="get">
+        <input type="hidden" name="User Id">
+        <label id="fs" for="FirstName">First Name</label>
+        <input type="text" name="FirstName"  required>
+        <br>
+        <label for="LastName">Last Name</label>
+        <input type="text" name="LastName"  required>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" required>
+        <br>
+        <label for="password">Password</label>
+        <input type="password" name="password" required>
+        <br>
+        <label for="password">Repeat Password</label>
+        <input type="password" name="password" required>
+        <br>
+        <label for="date">Birth Date</label>
+        <input type="date" name="date" >
+        <br>
+        <label for="file">User Picture</label>
+        <input type="file" name="file" >
+        <br>
+        <Fieldset>
+            <legend>Gender</legend>
+            <input type="radio" name="Gender" value="Male">Male
+            <input type="radio" name="Gender" value="Female">Female 
+        </Fieldset>
+        <br>
+        <label for="Faculty">Faculty</label>
+        <select name="Faculty" id="Faculty">
+            <option value="Beni suef">Beni suef</option>
+            <option value="Cario">Cario</option>
+            <option value="Minia">Minia</option>
+        </select>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Interests</legend>
+            <input type="checkbox" name="Interests" value="Music">Music
+            <input type="checkbox" name="Interests" value="Sports">Sports
+            <input type="checkbox" name="Interests" value="Travel">Travel 
+        </fieldset>
+        <br>
+        <textarea name="About You" id="" cols="30" rows="10"></textarea>
+        <label for="">About You</label>
+        <br> 
+        <label for="I">I agreed to terms and condition</label>
+        <input type="checkbox" name="I" required>
+        <br>
+        <input type="submit" value="submit">  
+        <input type="reset">
+    </form>
+</body>
+</html>
